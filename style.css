@@ -69,6 +69,14 @@ textarea:focus {
   font-size: 24px;
 }
 
+#contact-admin {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* Search Box */
 
 #searchbox {
@@ -221,6 +229,21 @@ section {
   transition: all 0.4s;
   display: inline-block;
   padding: 4px 32px;
+}
+
+.section-heading-map{
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  transition: all 0.4s;
+  display: inline-block;
+  padding: 4px 32px;
+}
+
+.section-heading-map:hover{
+  padding: 4px 48px;
+  background: rgb(119, 113, 113);
 }
 
 .section-heading:hover {
