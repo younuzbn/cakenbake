@@ -137,8 +137,8 @@ nav ul {
 
 #logo-img {
   display: flex;
-  height: 100%;
-  background: #111;
+  height: 50%;
+  background: rgb(26, 25, 25);
   padding: 0 32px;
   align-items: center;
   color: white;
@@ -146,7 +146,9 @@ nav ul {
 }
 
 #logo-img img {
-  height: 100px;
+  height: 150px;
+  position: absolute;
+  top: -26pt;
 }
 
 #logo-img:hover {
