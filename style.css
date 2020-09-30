@@ -146,9 +146,10 @@ nav ul {
 }
 
 #logo-img img {
-  height: 150px;
+  height: 70px;
   position: absolute;
-  top: -26pt;
+  top: 0pt;
+  left: 0pt;
 }
 
 #logo-img:hover {
@@ -550,11 +551,11 @@ footer #social-media-footer ul li:hover a .fa-github {
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 35px;
   }
 
   #banner h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .card {
