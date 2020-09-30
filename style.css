@@ -137,7 +137,7 @@ nav ul {
 
 #logo-img {
   display: flex;
-  height: 50%;
+  height: 0%;
   background: rgb(26, 25, 25);
   padding: 0 32px;
   align-items: center;
