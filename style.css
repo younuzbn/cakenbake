@@ -98,7 +98,7 @@ textarea:focus {
 
 nav {
   height: 72px;
-  background: #202125;
+  background: #1f1f1f;
   width: 100%;
   margin: 0;
   position: fixed;
@@ -132,7 +132,7 @@ nav ul {
 }
 
 .active {
-  color: #f783ae;
+  color: #f78383;
 }
 
 #logo-img {
@@ -182,7 +182,7 @@ nav ul {
 
 #slideout-menu {
   display: none;
-  background: #2d3436;
+  background: transparent;
   z-index: 100;
   position: fixed;
   transition: 0.4s;
@@ -200,6 +200,8 @@ nav ul {
 
 #slideout-menu ul li {
   padding: 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #slideout-menu a {
