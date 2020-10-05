@@ -90,15 +90,15 @@ textarea:focus {
 }
 
 #searchbox input {
-  height: 48px;
+  height: 0px;
   width: 100%;
 }
 
 /* Navigation */
 
 nav {
-  height: 72px;
-  background: #1f1f1f;
+  height: 100px;
+  background: rgba(34, 29, 29, 0.4);
   width: 100%;
   margin: 0;
   position: fixed;
@@ -146,10 +146,10 @@ nav ul {
 }
 
 #logo-img img {
-  height: 70px;
+  height: 90px;
   position: absolute;
-  top: 0pt;
-  left: 0pt;
+  top: 10px;
+  left: 10px;
 }
 
 #logo-img:hover {
@@ -186,7 +186,7 @@ nav ul {
   z-index: 100;
   position: fixed;
   transition: 0.4s;
-  margin-top: 72px;
+  margin-top: 120px;
   width: 100%;
   text-align: center;
   opacity:0;
