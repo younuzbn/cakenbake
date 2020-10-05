@@ -277,6 +277,10 @@ section {
   transition: 0.4s;
 }
 
+img{
+  border-radius: 5%;
+}
+
 .card-image:hover {
   box-shadow: 0 10px 6px -6px #777;
 }
