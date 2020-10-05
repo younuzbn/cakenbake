@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  background-color: #dadada;
 }
 
 h1 {
@@ -18,6 +19,7 @@ p {
 
 main {
   margin: 0 auto;
+  background-color: #dadada;
 }
 
 a {
@@ -201,7 +203,7 @@ nav ul {
 #slideout-menu ul li {
   padding: 8px;
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 #slideout-menu a {
@@ -229,11 +231,12 @@ section {
 .section-heading {
   font-size: 32px;
   font-family: "Roboto Condensed", sans-serif;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+  border-left: 3px solid rgb(0, 0, 0);
+  border-right: 3px solid rgb(0, 0, 0);
   transition: all 0.4s;
   display: inline-block;
   padding: 4px 32px;
+  color: black;
 }
 
 .section-heading-map{
@@ -253,7 +256,7 @@ section {
 
 .section-heading:hover {
   padding: 4px 48px;
-  background: red;
+  background: #dadada;
 }
 
 /* Section Source */
@@ -281,6 +284,9 @@ section {
 .card .card-description {
   padding: 0 8px;
 }
+.card h3{
+  color: rgb(0, 0, 0);
+}
 
 .card-meta-blogpost{
   color:#333;
@@ -304,11 +310,11 @@ section {
   margin-left: 0px;
   font-weight: bold;
   cursor: pointer;
-  background: white;
+  background: #dadada;
 }
 
 .btn-readmore:hover {
-  background: red;
+  background: rgb(255, 0, 0);
   text-decoration: none;
   padding: 8px 64px 8px 24px;
   color: white;
