@@ -92,15 +92,15 @@ textarea:focus {
 }
 
 #searchbox input {
-  height: 0px;
+  height: 48px;
   width: 100%;
 }
 
 /* Navigation */
 
 nav {
-  height: 100px;
-  background: rgba(34, 29, 29, 0.4);
+  height: 72px;
+  background: #1f1f1f;
   width: 100%;
   margin: 0;
   position: fixed;
@@ -148,10 +148,10 @@ nav ul {
 }
 
 #logo-img img {
-  height: 80px;
-position: absolute;
-top: 10px;
-left: 10px;
+  height: 70px;
+  position: absolute;
+  top: 0pt;
+  left: 0pt;
 }
 
 #logo-img:hover {
@@ -188,7 +188,7 @@ left: 10px;
   z-index: 100;
   position: fixed;
   transition: 0.4s;
-  margin-top: 120px;
+  margin-top: 72px;
   width: 100%;
   text-align: center;
   opacity:0;
@@ -275,10 +275,6 @@ section {
 
 .card-image {
   transition: 0.4s;
-}
-
-img{
-  border-radius: 5%;
 }
 
 .card-image:hover {
