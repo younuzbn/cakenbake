@@ -1,0 +1,27 @@
+@import "components/viriables"
+@import "components/mixins"
+@import "components/header"
+@import "components/footer"
+@import "components/icon"
+
+body
+  background: $gradient-bg
+
+section
+  display: flex
+  justify-content: center
+
+.container
+  height: 80vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+
+@media (max-width: 375px)
+  .social
+    margin: 0px
+    padding: 20px 0px
+
+  .avatar
+    margin: 1em
