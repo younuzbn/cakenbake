@@ -96,11 +96,24 @@ textarea:focus {
   width: 100%;
 }
 
+.notification{
+  background: #ff3030;
+  width: 100%;
+  height: 115px;
+}
+.sd{
+  width: 50%;
+  color: #fff;
+
+.nd{
+  width: 50%;
+}
+}
 /* Navigation */
 
 nav {
   height: 72px;
-  background: #1f1f1f;
+  background: #202125;
   width: 100%;
   margin: 0;
   position: fixed;
@@ -134,28 +147,27 @@ nav ul {
 }
 
 .active {
-  color: #f78383;
+  color: #ff0000;
 }
 
 #logo-img {
   display: flex;
-  height: 0%;
-  background: rgb(26, 25, 25);
+  height: 100%;
+  background: #202125;
   padding: 0 32px;
   align-items: center;
   color: white;
   transition: 0.4s;
+  width: 0%
 }
 
 #logo-img img {
-  height: 70px;
-  position: absolute;
-  top: 0pt;
-  left: 0pt;
+  height: 55px;
+  margin-left: 50%;
 }
 
 #logo-img:hover {
-  background: black;
+  background:  #202125;
 }
 
 #menu-icon {
@@ -179,7 +191,6 @@ nav ul {
 #search-icon:hover {
   color: red;
 }
-
 /* Slideout Menu */
 
 #slideout-menu {
