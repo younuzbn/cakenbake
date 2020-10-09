@@ -211,7 +211,7 @@ nav ul {
 }
 
 #logo-img:hover {
-  background:  #202125;
+  background:  #ffffff;
 }
 
 #menu-icon {
@@ -331,6 +331,7 @@ section {
 
 .card-image {
   transition: 0.4s;
+  
 }
 
 img{
