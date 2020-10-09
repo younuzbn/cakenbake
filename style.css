@@ -455,7 +455,8 @@ footer #social-media-footer ul li:hover a .fa-github {
   transition: all 0.4s;
   display:inline-block;
   padding:4px 32px;
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .page-heading2{
@@ -471,7 +472,7 @@ footer #social-media-footer ul li:hover a .fa-github {
 
 .page-heading:hover{
   padding:4px 48px;
-  background:red;
+  background:rgb(255, 255, 255);
 }
 
 .card-meta{
@@ -584,7 +585,11 @@ footer #social-media-footer ul li:hover a .fa-github {
 
   .card,
   .card .card-image img {
-    width: 100%;
+    width: 95%;
+    margin-left: 8px;
+    align-items: center;
+    vertical-align: middle;
+    
   }
 
   footer {
